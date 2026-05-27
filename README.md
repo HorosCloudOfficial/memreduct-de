@@ -14,37 +14,37 @@
 	<img src="/images/memreduct.png?cachefix" />
 </p>
 
-### Description:
-Lightweight real-time memory management application to monitor
-and clean system memory on your computer.
+### Beschreibung:
+Leichtgewichtige Echtzeit-Speicherverwaltungsanwendung zur Überwachung
+und Bereinigung des Systemspeichers auf Ihrem Computer.
 
-The program used undocumented internal system features (Native API) to clear system cache (system working set, working set, standby page lists, modified page lists) with variable result ~10-50%. Application it is compatible with <s>Windows XP SP3</s> Windows 7 SP1 and higher operating systems.
+Das Programm nutzt undokumentierte interne Systemfunktionen (Native API) zur Bereinigung des System-Caches (System Working Set, Working Set, Standby-Seitenlisten, Modified-Seitenlisten) mit variablem Ergebnis ~10-50%. Die Anwendung ist kompatibel mit <s>Windows XP SP3</s> Windows 7 SP1 und höheren Betriebssystemen.
 
-You can download either the installer or portable version. For correct working you are require administrator rights.
+Sie können entweder die Installer- oder Portable-Version herunterladen. Für die korrekte Funktion benötigen Sie Administratorrechte.
 
 ```
-To activate portable mode, create "memreduct.ini" in application folder, or move it from "%APPDATA%\Henry++\Mem Reduct".
+Um den portablen Modus zu aktivieren, erstellen Sie "memreduct.ini" im Anwendungsordner oder verschieben Sie sie aus "%APPDATA%\Henry++\Mem Reduct".
 ```
 
-### System requirements:
+### Systemanforderungen:
 - Windows 7, 8, 8.1, 10, 11 64-bit/ARM64
-- An SSE2-capable CPU
-- <s>KB2533623</s> [KB3063858](https://www.microsoft.com/en-us/download/details.aspx?id=47442) update for Windows 7 was required
+- Eine SSE2-fähige CPU
+- <s>KB2533623</s> [KB3063858](https://www.microsoft.com/en-us/download/details.aspx?id=47442) Update für Windows 7 war erforderlich
 
-### Donate:
+### Spenden:
 - [Bitcoin](https://www.blockchain.com/btc/address/1LrRTXPsvHcQWCNZotA9RcwjsGcRghG96c) (BTC)
 - [Ethereum](https://www.blockchain.com/explorer/addresses/eth/0xe2C84A62eb2a4EF154b19bec0c1c106734B95960) (ETH)
 - [Yandex Money](https://yoomoney.ru/to/4100115776040583) (RUB)
 - [Paypal](https://paypal.me/henrypp) (USD)
 
-### GPG Signature:
-Binaries have GPG signature `memreduct.exe.sig` in application folder.
+### GPG-Signatur:
+Binärdateien haben eine GPG-Signatur `memreduct.exe.sig` im Anwendungsordner.
 
-- Public key: [pubkey.asc](https://raw.githubusercontent.com/henrypp/builder/master/pubkey.asc) ([pgpkeys.eu](https://pgpkeys.eu/pks/lookup?op=index&fingerprint=on&search=0x5635B5FD))
-- Key ID: 0x5635B5FD
-- Fingerprint: D985 2361 1524 AB29 BE73 30AC 2881 20A7 5635 B5FD
+- Öffentlicher Schlüssel: [pubkey.asc](https://raw.githubusercontent.com/henrypp/builder/master/pubkey.asc) ([pgpkeys.eu](https://pgpkeys.eu/pks/lookup?op=index&fingerprint=on&search=0x5635B5FD))
+- Schlüssel-ID: 0x5635B5FD
+- Fingerabdruck: D985 2361 1524 AB29 BE73 30AC 2881 20A7 5635 B5FD
 ---
-- Website: [github.com/henrypp](https://github.com/henrypp)
+- Webseite: [github.com/henrypp](https://github.com/henrypp)
 - Support: sforce5@mail.ru
 ---
 (c) 2011-2026 Henry++
